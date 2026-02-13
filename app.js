@@ -6,6 +6,7 @@ const port = process.env.PORT || 3000;
 // 基础接口：首页
 app.get('/', (req, res) => {
   res.send(`
+    <h1>Test! 🚀</h1>
     <h1>Hello Docker + Node.js! 🚀</h1>
     <p>当前时间：${new Date().toLocaleString()}</p>
     <p>访问 <a href="/health">/health 查看健康状态</a></p>
